@@ -1,0 +1,239 @@
+  
+        .wrap {
+            width: 1000px;
+            height: 800px;
+            margin: auto;
+        }
+
+        #navi_2 {
+            text-align: center;
+            margin-left: 240px;
+        }
+       
+        #navi_1 {
+            
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            height: 100%;
+        }
+
+        #navi_3 {
+          
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            height: 100%;
+        }
+
+        #navi_1 a {
+            
+            background-color: black;
+            color: white;
+            display: block;
+            font-size: 20px;
+            line-height: 40px;
+            height: 100%;
+            text-decoration: none;
+        }
+
+        #navi_3 a {
+            
+            background-color: black;
+            color: white;
+            display: block;
+            font-size: 20px;
+            line-height: 40px;
+            height: 100%;
+            text-decoration: none;
+        }
+
+        #navi_1>li {
+            
+            float: left;
+            width: 25%;
+            height: 100%;
+            text-align: center;
+        }
+
+        #navi_3>li {
+            
+            float: left;
+            width: 25%;
+            height: 100%;
+            text-align: center;
+        }
+
+        #navi_1 a:hover {
+            background-color: white;
+            color: black;
+            width: 100%;
+            
+        }
+
+		#navi_1>li>ul {
+            
+            position: absolute;
+            width: 250px;
+            list-style-type: none;
+            padding: 0;
+            display: none;
+        }
+
+        #navi_1>li>a:hover+ul {
+            display: block;
+        }
+
+        #navi_1>li>ul:hover {
+            display: block;
+        }
+
+        #navi_1>li>ul li a{
+            font-size: 15px;
+        }
+
+        #navi_3 a:hover {
+            background-color: white;
+            color: black;
+            width: 100%;
+            
+        }
+
+        #navi_3>li>ul {
+            
+            list-style-type: none;
+            padding: 0;
+            display: none;
+        } 
+
+        li a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+
+        #login_form {
+            height:20%;
+            float: right;
+            margin-right: 35px;
+            /* margin-top: 0px; */
+        }
+    
+        #login_form_input>table {
+            width: 200px;
+            font-size: 13px;
+            text-align: center;
+            /* border: 1px solid; */
+        }
+
+
+        #userInput>input  {
+            height: 28px;
+            border: 1px solid;
+            border-style: inset;
+        }
+
+        #loginB>input {
+            height: 70px;
+            margin-top: 30px;
+            border-style: solid;
+            background-color: white;
+        }
+
+        #login_form_etc>a {
+            width: 100%;   
+            margin-right: 10px;     
+            color: black;
+            font-size: 12px;
+            /* text-decoration: none; */
+            /* border: 1px solid; */
+        }
+
+
+        #userId {
+            margin-top: 30px;
+            margin-bottom: 7px;
+        }
+
+        #hr1 {
+            margin-top: 60px;
+        }
+        
+        #hr3 {
+            margin-top: 420px;
+        }
+
+
+        #protitle1>h3 {
+            margin-left: 30px;
+            font-size: 20px;
+        }
+
+        #protitle2>h3 {
+            margin-left: 30px;
+            font-size: 20px;
+        }
+
+        .prod {
+            border: 1px solid;
+            border-color: black;
+            width: 190px;
+            height: 250px; 
+            margin-top: 20px;
+        }
+        
+        .prod img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .prodform {
+            float: left;
+            margin-left: 45px;
+        }
+
+        #footer {
+            position:absolute;
+            bottom:-660px;
+            width: 1000px;
+            height:70px; 
+            background-color: #555;
+            color: aliceblue;  
+        }
+
+        #footer_2>p{
+            width:100%;
+            margin:0;
+            box-sizing:border-box;
+            font-size:12px;
+            
+        }
+        #p1{
+            height:80%;
+            padding:5px;
+        }
+        #p2{
+            height:20%;
+            text-align:center;
+            background-color: #555;
+            color: aliceblue;
+        }
+
+        #footer_1 {
+            margin-top: 17px;
+        }
+
+
+        #footer_1>a{
+            text-decoration:none;
+            font-weight:300;
+            margin:15px;
+            line-height:25px;
+            color: aliceblue;  
+            font-size: 12px;
+            
+        }
